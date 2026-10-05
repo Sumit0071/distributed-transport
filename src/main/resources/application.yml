@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: uber-clone
+  datasource:
+    url: jdbc:postgresql://localhost:5432/uber_clone
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:8777327876}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+
+app:
+  ride:
+    base-fare-rate: 2.50

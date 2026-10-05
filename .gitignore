@@ -1,0 +1,52 @@
+# Compiled class files
+**/target/
+*.class
+
+# Log files
+*.log
+
+# Redis persistence
+dump.rdb
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Virtual Machine Temp Files
+.lock
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# IDE - Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# IDE - VS Code
+.vscode/
+
+# IDE - Trae
+.trae/
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS - macOS
+.DS_Store
+
+# Local configuration
+application-local.yml
+application-dev.yml
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
